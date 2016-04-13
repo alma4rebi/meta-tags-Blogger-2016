@@ -1,0 +1,63 @@
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+
+
+<meta content=' #Blog Description ' name='description'/>
+
+
+<meta content=' #Taging ' name='keywords'/>
+
+
+<meta content='#Url_Paner' name='og:image'/>
+
+
+<meta content='#global' name='distribution'/>
+
+
+<meta content='#10 days' name='revisit'/>
+
+
+<meta content='#10 days' name='revisit-after'/>
+
+
+<meta content='#document' name='resource-type'/>
+
+
+<meta content='#all' name='audience'/>
+
+
+<meta content='#general' name='rating'/>
+
+
+<meta content='#all' name='robots'/>
+
+
+<meta content='#index, follow' name='robots'/>
+
+
+<meta content='@Your_name_in_English' name='author'/>
+
+
+<meta content='ar' name='language'/>
+
+
+<meta content='@Name_your_country in English
+' name='country'/>
+
+
+<meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/>
+
+
+</b:if>
+
+  <b:include data='blog' name='all-head-content'/>
+
+<b:if cond='data:blog.pageType == "item"'>
+
+<title><data:blog.pageName/></title>
+
+<b:else/>
+
+<title><data:blog.pageTitle/></title>
+
+</b:if>
+
